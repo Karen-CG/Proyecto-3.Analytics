@@ -19,15 +19,23 @@ Se explicara de forma general los pasos realizados, para mayor detalle se puede 
 
 ## 1. Extracción y exploración de los datos
 
-Se comienza con la extracción de cada uno de los dataset y el análsis exploratorio de cada uno de los archivos. Se verificó lo siguiente: formatos, valores nulos, duplicados, estructura del dataset (filas y columnas), etiquetas de las columnas, tipo de datos en las columnas. <br>
+Se comienza con la extracción de cada uno de los datasets y su análsis exploratorio. Se verificó lo siguiente: formatos, valores nulos, duplicados, estructura del dataset (filas y columnas), etiquetas de las columnas, tipo de datos en las columnas. <br>
 
 ## 2. Tranformación y normalización de los datos
 
-En este paso se comienza con la limpieza y normalización de los datos. Se tomo como primer paso seleccionar las columnas que porporcionarian la información necesaria y reducir la dimensionalidad, a continuación se normaliza los nombres de las columnas (se cambian nombre o retiran espacios innecesarios). <br>
+En este paso se comienza con la limpieza y normalización de los datos. Se tomo como primer paso seleccionar las columnas que porporcionarian la información necesaria y reducir su dimensionalidad, a continuación se normaliza los nombres de las columnas (se cambian nombre o retiran espacios innecesarios). <br>
 Se reemplazan valores nulos por etiquetas que puedan brindar mayor información en el dataset. <br>
 Se cambian los formatos de tiempo y fecha, se estándarizan en caso de venir en formato diferente. Por ejemplo, 'September 17, 1908'  se cambia a '1908-09-17'. <br>
+Se cambia el tipo de dato de tipo 'object' a 'int'. Para poder realziar operaciones entre las columnas  o permita su visualziación en los gráficos.
+Tambien se analizan datos de las columnas y se normalizan los datos de los registros, se colocan en formatito capital o se estandarizan las etiquetas, retirando signos o datos innecesarios en las mismas, que podrian provocar una mala categorización de los datos.
 
-Determinar el formato adecuado para cargar los datasets a la base de datos.
-Creación de tablas en SQL y modelo de entidad relación. Verifición de buen funcionamiento de la base de datos por medio de las Query
-Se realiza el proceos de carga incremental para el archivo "precios_semana_20200518.txt" y el preprocesamienyo del archivo antes de ser cargado a la base datos.
-Se verifica nuevamente el funcionamiento de la base de datos.
+*Si se detecta una operación entre columnas que podria brindar nueva información, se genera nueva columna.
+
+## 3. Conexión a base de datos
+
+A partir del dataframe generado en python y con el dataset transformado y normalizado se conecta al gestor de base de datos, en este caso MySQL. Se establecen las relaciones necesarias entre en los datset en caso de existir.
+
+
+![image](https://user-images.githubusercontent.com/103619850/201077575-052ed2b6-e53b-415c-aa0c-49ed91c3f790.png)
+
+Con esto se termina el proceso de EDA. Comienza el proceso de conexión entre el gestor de base de datos (MySQL) y PowerBI.
