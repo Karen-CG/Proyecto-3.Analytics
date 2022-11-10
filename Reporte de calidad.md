@@ -15,7 +15,7 @@ Una vez realizado el EDA, podemos comenzar nuestro análsis de datos y extraer l
 
 
 ## EDA
-Se explicara de forma general los pasos realizados, para mayor detalle se puede verificar el nootbook donde se muestra a detalle el análisis y las transformaciones aplicadas.
+Se explicara de forma general los pasos realizados, para mayor detalle se puede verificar el nootbook donde se muestra el análisis y las transformaciones aplicadas en cada uno de los datasets.
 
 ## 1. Extracción y exploración de los datos
 
