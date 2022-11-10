@@ -14,9 +14,9 @@ Se realizara el análisis des dos dataset para obtener los siguinetes puntos:
 - Elaborar un dashboard e idear un storytelling con el objetivo de presentarlo ante la OACI
 
 ### Stack tecnológico:
-Python: EDA + transformaciones
-SQL: base de datos
-Power BI: dashboard
+Python: EDA + transformaciones.
+SQL: base de datos.
+Power BI: dashboard.
 
 ### Descripción de los archivos
 
