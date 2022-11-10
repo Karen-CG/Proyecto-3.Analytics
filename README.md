@@ -20,11 +20,11 @@ Power BI: dashboard
 
 ### Descripción de los archivos
 
-- AccidentesAviones.csv
-- AviationData.zip
-- Reporte_calidad
-- Diccionario_datos.md
-- Data_processing-1.ipynb
-- Data_processing-2.ipynb
-- Dashboard_PI.pbix
+- AccidentesAviones.csv : Primer dataser proporcionado
+- AviationData.zip : Segundo dataset, este es sugerido para obtener un mayor análisis de los accidentes en aviones
+- Reporte_calidad : Se prorporciona información de los dataset, su extracción, tranformación y análisis.
+- Diccionario_datos.md : Se indica el nombre las columnas de los dataset e información que proporciona (A partir de que se cargan a MySQL)
+- Data_processing-1.ipynb : EDA del dataset AccidentesAviones.csv
+- Data_processing-2.ipynb : EDA del datase AviationData.txt
+- Dashboard_PI.pbix : Dashboard con los insights encontrados en análisis de datos.
 
