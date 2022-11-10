@@ -3,7 +3,7 @@
 Para cumplir con la solicitud del análisis de datos y las posibles causas que contribuyen a que sucedan los accidentes aéreos, se trabajaran con los siguientes dataset: <br>
 
 1. AccidentesAviones.cvs : Este archivo contiene un total de 18 columnas y 5008 registros. <br>
-2. AviationData.txt : Este archivo contiene un total de 32 columnas y 150952 registros. <br>
+2. AviationData.txt : Este archivo contiene un total de 32 columnas y 150952 registros. <br>( Dataset obtenido de la siguiente página https://www.ntsb.gov/Pages/Results.aspx?queryId=25cba94b-7ff0-4caa-aa48-28b542f9eca9 )
 
 Estos dataset contienen información sobre la cantidad de personas fallecidas, tipo de aeronave, localización de los incidentes, entre otros. Sin embargo, la información no se encuentra normalizada para su análisis correcto; y el procesarlo directamente podría dar pauta a que se obtenga conclusiones erróneas. Por lo cual, es importante realizar la extracción, transformación y posteriormente la carga datos a la base de datos.Al proceso descrito anteriormente lo denominaremos EDA. <br>
 
