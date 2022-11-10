@@ -15,11 +15,15 @@ Una vez realizado el EDA, podemos comenzar nuestro análsis de datos y extraer l
 
 
 ## EDA
+Se explicara de forma general los pasos realizados, para mayor detalle se puede verificar el nootbook donde se muestra a detalle el análisis y las transformaciones aplicadas.
+
 ## 1. Extracción y exploración de los datos
 
-Comenzar con la extracción de los datassets necesarios para crear la base de datos.
-Realizar un análsis exploratorio de cada uno de los archivos (verificar formatos, valores nulos, duplicados o incosistencias en los datos). Análziar heremientas a utilizar.
-Realizar la limpieza de los datos y normalizarlos. Determinar el formato adecuado para cargar los datasets a la base de datos.
+Se comienza con la extracción de cada uno de los dataset y el análsis exploratorio de cada uno de los archivos. Se verificó lo siguiente: formatos, valores nulos, duplicados, estructura del dataset (filas y columnas), etiquetas de las columnas, tipo de datos en las columnas. <br>
+
+## 2. Tranformación y normalización de los datos
+En este paso se comienza con la limpieza y normalización de los datos.
+Determinar el formato adecuado para cargar los datasets a la base de datos.
 Creación de tablas en SQL y modelo de entidad relación. Verifición de buen funcionamiento de la base de datos por medio de las Query
 Se realiza el proceos de carga incremental para el archivo "precios_semana_20200518.txt" y el preprocesamienyo del archivo antes de ser cargado a la base datos.
 Se verifica nuevamente el funcionamiento de la base de datos.
