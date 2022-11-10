@@ -20,4 +20,11 @@ Power BI: dashboard
 
 ### Descripción de los archivos
 
+- AccidentesAviones.csv
+- AviationData.zip
+- Reporte_calidad
+- Diccionario_datos.md
+- Data_processing-1.ipynb
+- Data_processing-2.ipynb
 - Dashboard_PI.pbix
+
