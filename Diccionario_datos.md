@@ -51,6 +51,6 @@ Total Fatal Injuries : Total de accidentes fatales. <br>
 Total Serious Injuries : Total de accidentes graves. <br>
 Total Minor Injuries : Total de accidentes menores
 Total Uninjured : Total de eventos sin daños <br>
-Weather Condition : Condiciones climáticas. <br>
+Weather Condition : Condiciones meterológicas para el vuelo. <br>
 Broad Phase of Flight : Fase de vuelo <br>
 
