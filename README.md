@@ -19,3 +19,5 @@ SQL: base de datos
 Power BI: dashboard
 
 ### Descripción de los archivos
+
+- Dashboard_PI.pbix
