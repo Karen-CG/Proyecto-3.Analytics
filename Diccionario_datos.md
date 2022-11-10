@@ -5,11 +5,11 @@
 A continuación de se mostrara el contenido de las columnas en  los dataset procesados en el análsis de datos.
 
 
-### Dataset1. AccidentesAviones.csv
+### Dataset 1. AccidentesAviones.csv
 
 Contenido de las columnas con los nombres normalizados y utilizadas en el análsis.
 
-N° accidente: Número de accidente registrado
+N° accidente: Número de accidente registrado <br>
 Fecha: Fecha en la sucedió el accidente.
 Hora declarada: Hora en la que sucedió en accidente.
 Ruta: Lugar del accidente.
